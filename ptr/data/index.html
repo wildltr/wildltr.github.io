@@ -10,18 +10,18 @@
       
       
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.9">
     
     
       
-        <title>Wild-LTR</title>
+        <title>Data - Wild-LTR</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.36ee6aaa.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.36ee6aaa.min.css">
       
-        <link rel="stylesheet" href="assets/stylesheets/palette.83bccb1f.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.83bccb1f.min.css">
       
       
         
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#learning-to-rank-in-the-wild" class="md-skip">
+        <a href="#supported-datasets-and-formats" class="md-skip">
           Skip to content
         </a>
       
@@ -69,7 +69,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="." title="Wild-LTR" class="md-header-nav__button md-logo" aria-label="Wild-LTR">
+    <a href="../.." title="Wild-LTR" class="md-header-nav__button md-logo" aria-label="Wild-LTR">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -86,7 +86,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Home
+              Data
             
           </span>
         </div>
@@ -143,7 +143,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Wild-LTR" class="md-nav__button md-logo" aria-label="Wild-LTR">
+    <a href="../.." title="Wild-LTR" class="md-nav__button md-logo" aria-label="Wild-LTR">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -158,60 +158,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Home
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
       Home
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learning-to-rank-in-pytorch" class="md-nav__link">
-    Learning to Rank in PyTorch
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -219,10 +170,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       PTRanking
@@ -246,7 +199,7 @@
 
 
   <li class="md-nav__item">
-    <a href="ptr/about/" title="About" class="md-nav__link">
+    <a href="../about/" title="About" class="md-nav__link">
       About
     </a>
   </li>
@@ -256,11 +209,60 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="ptr/data/" title="Data" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Data
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Data" class="md-nav__link md-nav__link--active">
       Data
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#popular-benchmark-datasets" class="md-nav__link">
+    Popular Benchmark Datasets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#libsvm-formats" class="md-nav__link">
+    LibSVM formats
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -270,7 +272,7 @@
 
 
   <li class="md-nav__item">
-    <a href="ptr/metric/" title="Metric" class="md-nav__link">
+    <a href="../metric/" title="Metric" class="md-nav__link">
       Metric
     </a>
   </li>
@@ -307,7 +309,7 @@
 
 
   <li class="md-nav__item">
-    <a href="ptr/lambda_framework/" title="Lambda framework" class="md-nav__link">
+    <a href="../lambda_framework/" title="Lambda framework" class="md-nav__link">
       Lambda framework
     </a>
   </li>
@@ -349,7 +351,7 @@
 
 
   <li class="md-nav__item">
-    <a href="ptr/irgan/" title="Irgan" class="md-nav__link">
+    <a href="../irgan/" title="Irgan" class="md-nav__link">
       Irgan
     </a>
   </li>
@@ -391,7 +393,7 @@
 
 
   <li class="md-nav__item">
-    <a href="ptr/lambda_mart/" title="Lambda mart" class="md-nav__link">
+    <a href="../lambda_mart/" title="Lambda mart" class="md-nav__link">
       Lambda mart
     </a>
   </li>
@@ -433,15 +435,15 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    Introduction
+  <a href="#popular-benchmark-datasets" class="md-nav__link">
+    Popular Benchmark Datasets
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#learning-to-rank-in-pytorch" class="md-nav__link">
-    Learning to Rank in PyTorch
+  <a href="#libsvm-formats" class="md-nav__link">
+    LibSVM formats
   </a>
   
 </li>
@@ -462,12 +464,47 @@
                   
                 
                 
-                <h1 id="learning-to-rank-in-the-wild">Learning to Rank in the Wild<a class="headerlink" href="#learning-to-rank-in-the-wild" title="Permanent link">&para;</a></h1>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<p>TBA</p>
-<h2 id="learning-to-rank-in-pytorch">Learning to Rank in PyTorch<a class="headerlink" href="#learning-to-rank-in-pytorch" title="Permanent link">&para;</a></h2>
-<p>This open-source project, referred to as <strong>PTRanking</strong> (Learning to Rank in PyTorch) aims to provide scalable and extendable implementations of typical learning-to-rank methods based on PyTorch. On one hand, this project enables a uniform comparison over several benchmark datasets leading to an in-depth understanding of previous learning-to-rank methods. On the other hand, this project makes it easy to develop and incorporate newly proposed models, so as to expand the territory of techniques on learning-to-rank.</p>
-<p>Please refer to <a href="ptr/about/">PTRanking</a> for detailed information.</p>
+                <h1 id="supported-datasets-and-formats">Supported Datasets and Formats<a class="headerlink" href="#supported-datasets-and-formats" title="Permanent link">&para;</a></h1>
+<h2 id="popular-benchmark-datasets">Popular Benchmark Datasets<a class="headerlink" href="#popular-benchmark-datasets" title="Permanent link">&para;</a></h2>
+<p>-- <strong><a href="https://www.microsoft.com/en-us/research/project/letor-learning-rank-information-retrieval/">LETOR4.0</a></strong>
+(MQ2007 | MQ2008 | MQ2007-semi | MQ2008-semi | MQ2007-list | MQ2008-list )</p>
+<p>-- <strong><a href="https://www.microsoft.com/en-us/research/project/mslr/">MSLR-WEB</a></strong> (MSLR-WEB10K | MSLR-WEB30K)</p>
+<p>-- <strong><a href="https://webscope.sandbox.yahoo.com/catalog.php?datatype=c">Yahoo! LETOR</a></strong> (including Set1 | Set2)</p>
+<p>-- <strong><a href="http://quickrank.isti.cnr.it/istella-dataset/">Istella</a></strong> (Istella-S | Istella | Istella-X)</p>
+<p>These above datasets can be directly used once downloaded. <strong>Please note that:</strong></p>
+<ul>
+<li>
+<p>Semi-supervised datasets (MQ2007-semi | MQ2008-semi) have the same format as that for supervised ranking setting. The only difference is that the semi-supervised datasets in this setting contain both judged and undged query-document pairs
+ (<strong>in training set but not in validation and testing set</strong>)(The relevance label “-1” indicates the query-document pair is not judged) while the datasets for supervised ranking contain only judged query-document pair.</p>
+</li>
+<li>
+<p>According to <a href="https://arxiv.org/abs/1306.2597">Introducing LETOR 4.0 Datasets</a>, queryLevelNorm version refers to that: conduct query level normalization in the way of using MIN. This data can be directly used for learning.
+They further provide 5-fold partitions of this version for cross fold validation. Thus there is no need to perform query_level_scale again for {MQ2007_super | MQ2008_super | MQ2007_semi | MQ2008_semi}.
+But for {MSLRWEB10K | MSLRWEB30K}, the query-level normalization is <strong>not conducted yet</strong>.</p>
+</li>
+<li>
+<p>For Yahoo! LETOR, the query-level normalization is already done.</p>
+</li>
+<li>
+<p>For Istella! LETOR, the query-level normalization is <strong>not conducted yet</strong>. We note that ISTELLA contains extremely large features, e.g., 1.79769313486e+308, we replace features of this kind with a constant 1000000.</p>
+</li>
+</ul>
+<h2 id="libsvm-formats">LibSVM formats<a class="headerlink" href="#libsvm-formats" title="Permanent link">&para;</a></h2>
+<p>PT-Ranking currently supports to ingest data with the LibSVM formats</p>
+<ul>
+<li>LETOR datasets in LibSVM format</li>
+</ul>
+<p>\&lt;ground-truth label int> qid\:<query_id int> <feature_id int>:<feature_value float> ... <feature_id int>:<feature_value float></p>
+<p>For example:</p>
+<p>4 qid:105 2:0.4  8:0.7   50:0.5</p>
+<p>1 qid:105 5:0.5  30:0.7  32:0.4  48:0.53</p>
+<p>0 qid:210 4:0.9  38:0.01 39:0.5  45:0.7</p>
+<p>1 qid:210 1:0.2  8:0.9   31:0.93 40:0.6</p>
+<p>The above sample dataset includes two queries, the query "105" has 2 documents, the corresponding ground-truth labels are 4 and 1, respectively.</p>
+<ul>
+<li>Converting LETOR datasets into LibSVM format with a corresponding <strong>group</strong> file</li>
+</ul>
+<p>This functionality is required when using the implementation of LambdaMART provided in <a href="https://lightgbm.readthedocs.io/en/latest/">LightGBM</a>.</p>
                 
               
               
@@ -486,14 +523,28 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
+          <a href="../about/" title="About" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                About
+              </div>
+            </div>
+          </a>
         
-          <a href="ptr/about/" title="About" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="../metric/" title="Metric" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                About
+                Metric
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -520,15 +571,15 @@
       
     </div>
     
-      <script src="assets/javascripts/vendor.df0def68.min.js"></script>
-      <script src="assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
-          base: ".",
+          base: "../..",
           features: [],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.5eca75d3.min.js"
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
